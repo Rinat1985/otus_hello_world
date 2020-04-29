@@ -2,9 +2,9 @@ dist: bionic
 language: cpp
 compiler: gcc
 addons: 
-    apt:
-      packages:
-	    - libboost-test-dev
+  apt:
+    packages:
+	  - libboost-test-dev
 # script:
 # - cmake .
 # - cmake --build .
