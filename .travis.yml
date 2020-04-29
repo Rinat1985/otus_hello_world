@@ -3,8 +3,8 @@ language: cpp
 compiler: gcc
 addons: 
     apt:
-	    - libboost-test-dev
- 	    #- libspdlog-dev
+      packages:
+	    -  libboost-test-dev
 script:
 - cmake .
 - cmake --build .
